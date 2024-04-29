@@ -18,9 +18,39 @@
     <title>Historia Meze Grill</title>
 </head>
 <body>
-    <main class="fs">
-        <section>
-
+    <header class="navigation d-flex align-items-center justify-content-between container">
+        <h2 class="fw-semibold">
+            Historia Meze Grill<span class="text-danger">.</span>
+        </h2>
+        <nav>
+            <a href="#home">Beranda</a>
+            <a href="#about-us">Tentang Kami</a>
+            <a href="#menu">Menu</a>
+            <a href="#paket-reservasi">Paket Reservasi</a>
+        </nav>
+        <a class="btn btn-danger text-white" href="reservasi.html">Reservasi</a>
+    </header>
+    <main class="fs d-flex justify-content-center align-items-center">
+        <img class="img-reservasi" src="assets/img/meze.png" alt="">
+        <section class="reservasi">
+            <h2>Reservasi Online</h2>
+                <div class="form-reservasi">
+                    <div class="mb-3 row">
+                        <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                          <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">
+                        </div>
+                      </div>
+                      <div class="mb-3 row">
+                        <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                        <div class="col-sm-10">
+                          <input type="password" class="form-control" id="inputPassword">
+                        </div>
+                      </div>
+                </div>
+                <div class="mb-3 d-flex row">
+                    <input type="name" class="col-6" id="exampleFormControlInput1" placeholder="Nama Reservasi">
+                </div>
         </section>
     </main>
     <!-- Footer -->
