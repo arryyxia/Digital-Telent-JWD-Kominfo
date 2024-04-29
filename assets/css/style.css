@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "poppins";
+    src: url(../fonts/Poppins/Poppins-Light.ttf);
+}
+
+*{
+    list-style: none;
+    font-family: "poppins";
+}
+
+/* navigation */
+.navigation{
+    height: 90px;
+}
+.navigation ul li a{
+    color: black;
+    text-decoration: none;
+}
+.navigation a{
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+}
+nav{
+    display: flex;
+	align-items: center;
+    gap: 20px;
+}
+.hero{
+    height: 656px;
+    background-color: #EEEEEE;
+}
+.yt-hero iframe{
+    width: 526px;
+}
+
+/* promo */
+.ruang-meeting, .ulang-tahun, .bukber {
+    width: 650px;
+    height: 380px;
+    background-repeat: no-repeat;
+    transition: background 0.3s;
+    overflow-x: hidden;
+}
+
+.ruang-meeting {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/ruang-meeting.jpg');
+    background-position: center;
+}
+
+.ulang-tahun {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/ulang-tahun.jpg');
+    background-position: center;
+}
+
+.bukber {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/bukber.jpg');
+    background-position: center;
+}
+
+.ruang-meeting:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/ruang-meeting.jpg');
+    background-position: center;
+}
+.ulang-tahun:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/ulang-tahun.jpg');
+    background-position: center;
+}
+.bukber:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/bukber.jpg');
+    background-position: center;
+}
+.konten-promo{
+    position: relative;
+    left: -700px;
+    transition: 0.4s;
+}
+.ruang-meeting:hover .konten-promo{
+    left: 0;
+}
+.bukber:hover .konten-promo{
+    left: 0;
+}
+.ulang-tahun:hover .konten-promo{
+    left: 0;
+}
+
+/* footer */
+footer{
+    height: 200px;
+    margin-top: 200px;
+    background-color: #1F1F24;
+}
+
