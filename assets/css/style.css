@@ -94,16 +94,32 @@ nav{
     background-color: #EFEFEF;
 }
 .img-reservasi{
-    height: 500px;
+    height: 600px;
     border-radius: 16px 0 0 16px;
 }
 .reservasi{
     width: 800px;
-    height: 500px;
+    height: 600px;
     background-color: gray;
     border-radius: 0 16px 16px 0;
     padding: 32px;
     color: #fff;
+}
+
+.invoice{
+    border-radius: 10px;
+    width: 600px;
+    height: 480px;
+    background-color: gray;
+    padding: 32px;
+    color: #fff;
+    margin-right: 30px;
+}
+.invoice p{
+    font-size: 16px;
+}
+.invoice{
+    margin-top: 32px;
 }
 /* footer */
 footer{
