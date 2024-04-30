@@ -1,33 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
-    <title>Historia Meze Grill</title>
-</head>
-<body>
-    <header class="navigation d-flex align-items-center justify-content-between container">
-        <h2 class="fw-semibold">
-            Historia Meze Grill<span class="text-danger">.</span>
-        </h2>
-        <nav>
-            <a href="#home">Beranda</a>
-            <a href="#paket-reservasi">Paket Reservasi</a>
-            <a class="btn btn-danger text-white" href="reservasi.php">Reservasi</a>
-        </nav>
-    </header>
+    <?php include 'assets/layout/header.php' ?>
+    <?php include 'assets/layout/navbar.php' ?>
+    
     <section id="beranda" class="hero d-flex align-items-center justify-content-center">
         <div class="container-md d-flex align-items-center row">
             <div class="konten col-6 align-items-center">
@@ -39,7 +12,7 @@
     </section>
     
     <main>
-        <section>
+        <section id="paket">
             <div class="title text-center"><h2>Paket Promo!</h2></div>
             <div class="d-flex">
                 <div class="ruang-meeting d-flex align-items-end">
