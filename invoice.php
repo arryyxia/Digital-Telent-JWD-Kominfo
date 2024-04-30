@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <title>Historia Meze Grill</title>
+</head>
+<body>
+    <header class="navigation d-flex align-items-center justify-content-between container">
+        <h2 class="fw-semibold">
+            Historia Meze Grill<span class="text-danger">.</span>
+        </h2>
+        <nav>
+            <a href="index.php">Beranda</a>
+            <a href="index.php">Paket Reservasi</a>
+            <a class="btn btn-danger text-white" href="reservasi.php">Reservasi</a>
+        </nav>
+    </header>
+    
+    <main class="fs d-flex justify-content-center align-items-center">
+        <section class="invoice">
+            <div class="border-bottom">
+                <h2 class="text-center">Terimakasih Telah Melakukan Reservasi</h2>
+            </div>
+
+            <div class="mt-3 justify-content-center">
+                <div class="row ">
+                    <div class="col-4"><p>Nama Reservasi</p></div>
+                    <div class="col-8"><p>Nama Reservasi</p></div>
+                </div>
+                <div class="row">
+                    <div class="col-4"><p>Nomor Telepon/HP</p></div>
+                    <div class="col-8"><p>Nomor Telepon/HP</p></div>
+                </div>
+                <div class="row">
+                    <div class="col-4"><p>Jumlah Kursi</p></div>
+                    <div class="col-8"><p>Jumlah Kursi</p></div>
+                </div>
+                <div class="row">
+                    <div class="col-4"><p>Waktu Reservasi</p></div>
+                    <div class="col-8"><p>Waktu Reservasi</p></div>
+                </div>
+                <div class="row">
+                    <div class="col-4"><p>Paket Promo</p></div>
+                    <div class="col-8"><p>Paket Promo</p></div>
+                </div>
+                <div class="row">
+                    <div class="col-4"><p>Harga Paket</p></div>
+                    <div class="col-8"><p>Harga Paket</p></div>
+                </div>
+                <div class="row">
+                    <div class="col-4"><p>Total Tagihan</p></div>
+                    <div class="col-8"><p>Total Tagihan</p></div>
+                </div>
+            </div>
+            <div class="order-lagi">               
+                <h3 class="text-center">Pesan Lagi?</h3>
+                <div class="d-flex justify-content-center mt-2 py-2">
+                    <a href="reservasi.php" class="btn btn-success align-items-center px-4 ms-2">Iya</a>
+                    <a href="index.php" class="btn btn-danger align-items-center px-4 ms-2 ">Tidak</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="">
+        
+    </footer>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

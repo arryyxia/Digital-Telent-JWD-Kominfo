@@ -121,6 +121,10 @@ nav{
 .invoice{
     margin-top: 32px;
 }
+.order-lagi{
+    background-color: #8A8C8F;
+    border-radius: 10px;
+}
 /* footer */
 footer{
     height: 200px;
