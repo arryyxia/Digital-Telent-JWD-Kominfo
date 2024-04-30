@@ -17,16 +17,22 @@
         $mie                    = isset($_POST['mie']) ? 1 : 0;
         $hargaPaket             = isset($_POST['hargaPaket']) ? $_POST['hargaPaket'] : '';
         $totalTagihan           = isset($_POST['totalTagihan']) ? $_POST['totalTagihan'] : '';
-    
+        
         // Query untuk menyimpan data reservasi ke dalam tabel
         $query = "INSERT INTO reservasi (namaReservasi, noTelp, waktuReservasi, kursi, paket, sate, rendang, sayur, ayam, sosis, mie, hargaPaket, totalTagihan)
                     VALUES ('$namaReservasi', '$noTelp', '$waktuReservasi', '$kursi', '$paket', '$sate', '$rendang', '$sayur', '$ayam', '$sosis', '$mie', '$hargaPaket', '$totalTagihan')";
     
         if ($link->query($query) === TRUE) {
-            echo "Reservasi berhasil disimpan.";
+            // Mendapatkan idReservasi yang baru saja di-generate
+            $idReservasi = $link->insert_id;
+
+            // Redirect ke invoice.php dengan idReservasi
+            echo "<meta http-equiv='refresh' content='1; url=../invoice.php?idReservasi=$idReservasi'>";
+            exit;
         } else {
-            echo "Error: " . $query . "<br>" . $link->error;
-        }
+                echo "Error: " . $query . "<br>" . $link->error;
+            }
+
     }
 ?>
     

@@ -1,5 +1,7 @@
     <?php include 'layout/header.php' ?>
     <?php include 'layout/navbar.php' ?>
+
+
     
     <section id="beranda" class="hero d-flex align-items-center justify-content-center">
         <div class="container-md d-flex align-items-center row">
