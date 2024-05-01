@@ -1,5 +1,5 @@
 <?php 
-    include_once 'model/config.php'; // File konfigurasi database
+    include 'config.php';
     
     $idReservasi = $_GET['idReservasi'];
     $dataInvoice = mysqli_query($link, "select * from reservasi where idReservasi=$idReservasi");

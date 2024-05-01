@@ -1,6 +1,6 @@
     <?php include 'layout/header.php'; ?>
+    <?php include 'controller/Invoice.php'; ?>
     <?php include 'layout/navbar.php'; ?>
-    <?php include 'controller/Invoice.php' ?>
 
     <main class="fs d-flex justify-content-center align-items-center">
         <section class="invoice">
