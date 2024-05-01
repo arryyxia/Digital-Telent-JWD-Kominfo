@@ -1,5 +1,5 @@
 <?php 
-    include_once 'config.php'; // File konfigurasi database
+    include_once 'model/config.php'; // File konfigurasi database
     
     $idReservasi = $_GET['idReservasi'];
     $dataInvoice = mysqli_query($link, "select * from reservasi where idReservasi=$idReservasi");
@@ -20,3 +20,4 @@
     $hargaPaket = $invoice['hargaPaket'];
     $totalTagihan = $invoice['totalTagihan'];
 ?>
+                                           

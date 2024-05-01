@@ -1,5 +1,5 @@
 <?php
-    include_once 'config.php'; // File konfigurasi database
+    include_once 'model/config.php'; // File konfigurasi database
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $namaReservasi          = isset($_POST['namaReservasi']) ? $_POST['namaReservasi'] : '';
