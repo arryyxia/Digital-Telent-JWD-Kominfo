@@ -7,7 +7,7 @@
         <section class="reservasi">
             <h2 class="mb-3">Reservasi Online</h2>
             <div class="form-reservasi">
-                <form action="controller/Reservasi.php" onsubmit="return validateForm()" method="post">
+                <form action="controller/Reservasi.php" method="post">
                     <div class="mb-3 row">
                         <label for="namaReservasi" class="col-sm-3 col-form-label">Nama Reservasi</label>
                         <div class="col-sm-9">
