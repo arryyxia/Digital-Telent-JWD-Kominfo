@@ -11,7 +11,7 @@
                     <div class="mb-3 row">
                         <label for="namaReservasi" class="col-sm-3 col-form-label">Nama Reservasi</label>
                         <div class="col-sm-9">
-                            <input type="name" class="form-control" id="namaReservasi" name="namaReservasi" reqiured>
+                            <input type="name" class="form-control" id="namaReservasi" name="namaReservasi" required>
                         </div>
                     </div>
                     <div class="mb-3 row">
@@ -23,13 +23,13 @@
                     <div class="mb-3 row">
                         <label for="waktuReservasi" class="col-sm-3 col-form-label">Waktu Reservasi</label>
                         <div class="col-sm-9">
-                            <input type="datetime-local" class="form-control" id="waktuReservasi" name="waktuReservasi" minDate="0" reqiured>
+                            <input type="datetime-local" class="form-control" id="waktuReservasi" name="waktuReservasi" minDate="0" required>
                         </div>
                     </div>
                     <div class="mb-3 row">
                         <label for="kursi" class="col-sm-3 col-form-label">Jumlah Kursi</label>
                         <div class="col-sm-9">
-                            <input type="number" class="form-control" id="kursi" name="kursi" reqiured>
+                            <input type="number" class="form-control" id="kursi" name="kursi" required>
                         </div>
                     </div>
 
@@ -37,19 +37,19 @@
                         <label for="paket" class="col-sm-3 col-form-label">Pilih Paket</label>
                         <div class="col-sm-9 d-flex">
                             <div class="form-check pe-3">
-                                <input type="radio" class="form-check-input" name="paket" id="reguler" value="reguler" oninput="hitungTotal()" reqiured>
+                                <input type="radio" class="form-check-input" name="paket" id="reguler" value="reguler" oninput="hitungTotal()" required>
                                 <label class="form-check-label" for="reguler">
                                     Reguler (1jt)
                                 </label>
                             </div>
                             <div class="form-check pe-3">
-                                <input type="radio" class="form-check-input" name="paket" id="ulangTahun" value="ulangTahun" oninput="hitungTotal()" reqiured>
+                                <input type="radio" class="form-check-input" name="paket" id="ulangTahun" value="ulangTahun" oninput="hitungTotal()" required>
                                 <label class="form-check-label " for="ulangTahun">
                                     Ulang Tahun (1.5jt)
                                 </label>
                             </div>
                             <div class="form-check pe-3">
-                                <input type="radio" class="form-check-input" name="paket" id="ruangMeeting" value="ruangMeeting" oninput="hitungTotal()" reqiured>
+                                <input type="radio" class="form-check-input" name="paket" id="ruangMeeting" value="ruangMeeting" oninput="hitungTotal()" required>
                                 <label class="form-check-label " for="ruangMeeting">
                                     Ruang Meeting (2jt)
                                 </label>
@@ -61,13 +61,13 @@
                         <div class="col-sm-9 row">
                             <div class="col-4">
                                 <div class="form-check pe-3">
-                                    <input type="checkbox" class="form-check-input" id="sate" name="sate" value="" oninput="hitungTotal()" reqiured>
+                                    <input type="checkbox" class="form-check-input" id="sate" name="sate" value="" oninput="hitungTotal()" required>
                                     <label class="form-check-label" for="sate">
                                         Sate (10k)
                                     </label>
                                 </div>
                                 <div class="form-check pe-3">
-                                    <input type="checkbox" class="form-check-input"  naid="rendang"me="rendang" value="" oninput="hitungTotal()" reqiured>
+                                    <input type="checkbox" class="form-check-input"  naid="rendang"me="rendang" value="" oninput="hitungTotal()" required>
                                     <label class="form-check-label " for="rendang">
                                         Rendang (15k)
                                     </label>
@@ -75,13 +75,13 @@
                             </div>
                             <div class="col-4">
                                 <div class="form-check pe-3">
-                                    <input type="checkbox" class="form-check-input" id="sayur" name="sayur" value="" oninput="hitungTotal()" reqiured>
+                                    <input type="checkbox" class="form-check-input" id="sayur" name="sayur" value="" oninput="hitungTotal()" required>
                                     <label class="form-check-label " for="sayur">
                                         Sayur (5k)
                                     </label>
                                 </div>
                                 <div class="form-check pe-3">
-                                    <input type="checkbox" class="form-check-input" id="ayam" name="ayam" value="" oninput="hitungTotal()" reqiured>
+                                    <input type="checkbox" class="form-check-input" id="ayam" name="ayam" value="" oninput="hitungTotal()" required>
                                     <label class="form-check-label " for="ayam">
                                         Ayam (12k)
                                     </label>
@@ -89,13 +89,13 @@
                             </div>
                             <div class="col-4">
                                 <div class="form-check pe-3">
-                                    <input type="checkbox" class="form-check-input"  id="sosis" name="sosis" value="" oninput="hitungTotal()" reqiured>
+                                    <input type="checkbox" class="form-check-input"  id="sosis" name="sosis" value="" oninput="hitungTotal()" required>
                                     <label class="form-check-label " for="sosis">
                                         Sosis (8k)
                                     </label>
                                 </div>
                                 <div class="form-check pe-3">
-                                    <input type="checkbox" class="form-check-input"id="mie" name="mie" value="" oninput="hitungTotal()" reqiured>
+                                    <input type="checkbox" class="form-check-input"id="mie" name="mie" value="" oninput="hitungTotal()" required>
                                     <label class="form-check-label " for="mie">
                                         Mie (10k)
                                     </label>
@@ -107,13 +107,13 @@
                     <div class="mb-3 row">
                         <label for="nama" class="col-sm-3 col-form-label">Harga Paket</label>
                         <div class="col-sm-9">
-                            <input type="price" class="form-control" id="hargaPaket" name="hargaPaket" readonly reqiured>
+                            <input type="price" class="form-control" id="hargaPaket" name="hargaPaket" readonly required>
                         </div>
                     </div>
                     <div class="mb-3 row">
                         <label for="nama" class="col-sm-3 col-form-label">Total Tagihan</label>
                         <div class="col-sm-9">
-                            <input type="price" class="form-control" id="totalTagihan" name="totalTagihan" readonly reqiured>
+                            <input type="price" class="form-control" id="totalTagihan" name="totalTagihan" readonly required>
                         </div>
                     </div>
                     <div class="btn-reservasi d-flex justify-content-end">
